@@ -1,15 +1,15 @@
   <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        <meta content='text/html;charset=utf-8' http-equiv='content-type'>
+        
         <title>CIDCO</title>
         
         <link rel="stylesheet" href="css/bootstrap.css">
-        
-        <link href="css/font-awesome.css" rel="stylesheet">
         <link href="css/light-theme.css" rel="stylesheet">
+        <link href="css/theme-colors.css" rel="stylesheet">
+        
         <link href="css/demo.css" rel="stylesheet">
         <link href="css/jquery-dataTables.css" rel="stylesheet">
         
@@ -95,69 +95,71 @@
             </li>
             <li class="">
                       <a class="dropdown-collapse" href="#"><i class="icon-edit"></i>
-              <span>Forms</span>
-              <i class="icon-angle-down angle-down"></i>
+              <span>Admin Control</span>
+              <span class="icon-angle-down angle-down"></span>
               </a>
       
               <ul class="nav nav-stacked">
                 <li class="">
-                  <a href="test.html">
+                  <a href="#">
                     <i class="icon-caret-right"></i>
-                    <span>Form styles and features</span>
+                    <span>Add/Remove Member</span>
                   </a>
                 </li>
                 <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/form_components.html">
+                  <a href="#">
                     <i class="icon-caret-right"></i>
-                    <span>Form components</span>
+                    <span>Update Member</span>
                   </a>
                 </li>
-                <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/validations.html">
-                    <i class="icon-caret-right"></i>
-                    <span>Validations</span>
-                  </a>
-                </li>
-                <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/wizard.html">
-                    <i class="icon-caret-right"></i>
-                    <span>Wizard</span>
-                  </a>
-                </li>
-              </ul>
+               </ul>
             </li>
             <li>
               <a class="dropdown-collapse " href="#">
                 <i class="icon-tint"></i>
-                <span>UI Elements &amp; Widgets</span>
+                <span>Account book</span>
                 <i class="icon-angle-down angle-down"></i>
               </a>
               <ul class="nav nav-stacked">
                 <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/ui_elements.html">
+                  <a href="#">
                     <i class="icon-caret-right"></i>
-                    <span>UI Elements</span>
+                    <span>Add asset</span>
                   </a>
                 </li>
                 <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/widgets.html">
+                  <a href="#">
                     <i class="icon-caret-right"></i>
-                    <span>Widgets</span>
+                    <span>List of assets</span>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="">
-              <a href="http://www.bublinastudio.com/flattybs3/buttons_and_icons.html">
-                <i class="icon-star"></i>
-                <span>Buttons &amp; Icons</span>
-              </a>
+            <li>
+                <a class="dropdown-collapse" href="#">
+                    <i class="icon-star"></i>
+                    <span>Depreciation </span>
+                </a>
+                <ul class="nav nav-stacked">
+                    <li class="">
+                        <a href="#">
+                            <i class="icon-caret-right"></i>
+                            <span>Show Depreciation</span>
+                        </a>
+                    </li>
+                    <li class="">
+                    <a href="#">
+                        <i class="icon-caret-right"></i>
+                        <span>Add/Edit/Delete</span>
+                    </a>
+                    </li>
+              </ul>
             </li>
             <li>
               <a class="dropdown-collapse " href="#">
                 <i class="icon-cogs"></i>
-                <span>Components</span>
-                <i class="icon-angle-down angle-down"></i>
+                <span>Asset Control</span>
+                <i class="glyphicon glyphicon-chevron-down pull-right"></i>
               </a>
               <ul class="nav nav-stacked">
                 <li class="">
@@ -205,109 +207,18 @@
               </ul>
             </li>
             <li class="">
-              <a href="http://www.bublinastudio.com/flattybs3/tables.html">
+              <a href="#">
                 <i class="icon-table"></i>
-                <span>Tables</span>
+                <span>Generate report </span>
               </a>
             </li>
             <li class="">
-              <a href="http://www.bublinastudio.com/flattybs3/grid.html">
+              <a href="#">
                 <i class="icon-th"></i>
-                <span>Grid</span>
+                <span>Need Permanent alerts</span>
               </a>
             </li>
-            <li class="">
-              <a href="http://www.bublinastudio.com/flattybs3/type.html">
-                <i class="icon-font"></i>
-                <span>Typography</span>
-              </a>
-            </li>
-            <li class="">
-              <a href="http://www.bublinastudio.com/flattybs3/calendar.html">
-                <i class="icon-calendar"></i>
-                <span>Calendar</span>
-              </a>
-            </li>
-           
-            <li>
-              <a class="dropdown-collapse " href="#">
-                <i class="icon-cog"></i>
-                <span>Layouts</span>
-                <i class="icon-angle-down angle-down"></i>
-              </a>
-              <ul class="nav nav-stacked">
-                <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/closed_navigation.html">
-                    <i class="icon-caret-right"></i>
-                    <span>Closed navigation</span>
-                  </a>
-                </li>
-                <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/fixed_header.html">
-                    <i class="icon-caret-right"></i>
-                    <span>Fixed header</span>
-                  </a>
-                </li>
-                <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/fixed_navigation.html">
-                    <i class="icon-caret-right"></i>
-                    <span>Fixed navigation</span>
-                  </a>
-                </li>
-                <li class="">
-                  <a href="http://www.bublinastudio.com/flattybs3/fixed_navigation_and_header.html">
-                    <i class="icon-caret-right"></i>
-                    <span>Fixed navigation &amp; header</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="">
-              <a href="http://www.bublinastudio.com/flattybs3/email_templates.html">
-                <i class="icon-mail-reply"></i>
-                <span>Email templates</span>
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-collapse" href="#">
-                <i class="icon-folder-open-alt"></i>
-                <span>Four level dropdown</span>
-                <i class="icon-angle-down angle-down"></i>
-              </a>
-              <ul class="nav nav-stacked">
-                <li>
-                  <a class="dropdown-collapse" href="#">
-                    <i class="icon-caret-right"></i>
-                    <span>Second level</span>
-                    <i class="icon-angle-down angle-down"></i>
-                  </a>
-                  <ul class="nav nav-stacked">
-                    <li>
-                      <a class="dropdown-collapse" href="#">
-                        <i class="icon-caret-right"></i>
-                        <span>Third level</span>
-                        <i class="icon-angle-down angle-down"></i>
-                      </a>
-                      <ul class="nav nav-stacked">
-                        <li>
-                          <a href="#">
-                            <i class="icon-caret-right"></i>
-                            <span>Fourth level</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="icon-caret-right"></i>
-                            <span>Another fourth level</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        </ul>
         </div>
       </nav>
         <div class="row">
@@ -541,12 +452,12 @@
                 </table>
             </div>
         </div>
-        </div>
+       
         <script>
             $(document).ready(function() {
-    $('#example').DataTable();
-} );
-</script>
+                $('#example').DataTable();
+            });
+        </script>
     </body>
 </html>
     
