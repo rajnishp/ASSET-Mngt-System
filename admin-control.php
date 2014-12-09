@@ -21,6 +21,7 @@
                             <th>Name</th>
                             <th>Department</th>
                             <th>Employee No</th>
+                            <th>Edit/Delete</th>
                         </tr>
                     </thead>
 
@@ -29,6 +30,7 @@
                             <th>Name</th>
                             <th>Department</th>
                             <th>Employee No</th>
+                            <th>Edit/Delete</th>
                         </tr>
                     </tfoot>
 
@@ -37,26 +39,55 @@
                             <td>Sakura Yamamoto</td>
                             <td>Electronics</td>
                             <td>Ec-301-29</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
                             <td>Donna Snider</td>
                             <td>Furniture</td>
                             <td>Fn-302-67</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td>Bob Naisin</td>
-                            <td>Gadgets</td>
-                            <td>Gd-303-45</td>
+                            <td>Uber Yamato</td>
+                            <td>Electronics</td>
+                            <td>Ec-301-34</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td>Bob Naisin</td>
-                            <td>Gadgets</td>
-                            <td>Gd-303-45</td>
+                            <td>Rameshwer Mishra</td>
+                            <td>Testing</td>
+                            <td>TS-317-23</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td>Bob Naisin</td>
+                            <td>Sharlesh Tyagi</td>
+                            <td>Development</td>
+                            <td>DP-317-23</td>
+                            <td><i class="icon-edit"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mark Tony</td>
+                            <td>Power</td>
+                            <td>PW-367-23</td>
+                            <td><i class="icon-edit"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Nasim Bob</td>
+                            <td>Delivery</td>
+                            <td>Dl-383-45</td>
+                            <td><i class="icon-edit"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Sakura Garima</td>
+                            <td>Electronics</td>
+                            <td>Ec-301-67</td>
+                            <td><i class="icon-edit"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Ravindera Ravu</td>
                             <td>Gadgets</td>
-                            <td>Gd-303-45</td>
+                            <td>Gd-303-32</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                     </tbody>
                 </table>
@@ -87,10 +118,12 @@
                                     </div>
                                 </div>
                             </div><br/>	
-                                 <input type="text" class="form-control" style="width: 100%" id="email" placeholder="Email" onkeyup="nospaces(this)"/>
+                                 <input type="text" class="form-control" style="width: 100%" id="email" placeholder="Department" onkeyup="nospaces(this)"/>
                                   <span id="status_email"></span>
-                                    <br/>					
-                            <input type="submit" class="btn btn-primary btn-lg" id = "request" value = "Sign up" onclick="validateSignupFormOnSubmit()">
+                                    <br/>	
+                                    <input type="text" class="form-control" style="width: 100%" id="email" placeholder="Employee No" onkeyup="nospaces(this)"/>
+                                    <br>
+                            <input type="submit" class="btn btn-primary btn-lg" id = "request" value = "Add" onclick="validateSignupFormOnSubmit()">
                         </div>
                     </div>
                 </div>

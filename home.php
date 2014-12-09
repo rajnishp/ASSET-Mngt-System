@@ -50,7 +50,7 @@
                         <tr>
                             <td><a href="assets.php" style="color: blue;">Khopta</a></td>
                             <td>2009/08/19</td>
-                            <td><a href="edit-account-book.php"> Add </a></td>
+                            <td><a href="#" style="color: blue;"> Add </a></td>
                             <td>FGH</td>
                             <td><i class="icon-edit"></i></td>
                         </tr>

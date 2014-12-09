@@ -5,11 +5,10 @@
         
         <link href="css/demo.css" rel="stylesheet">
         <link href="css/jquery-dataTables.css" rel="stylesheet">
-        
-        <script src="js/bootstrap.js"></script>
-        <script src="js/jquery-ui.js"></script>
        
         <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery-ui.js"></script>
         <script src="js/theme.js"></script>
         <script src="js/jquery-dataTables-min.js"></script>
         <style>
