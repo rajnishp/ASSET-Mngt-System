@@ -11,7 +11,7 @@
         <div class="row">
         <div class="col-md-3">
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
             
             
         <table id="example" class="display" cellspacing="0" width="100%">
@@ -74,6 +74,9 @@
                     </tbody>
                 </table>
         </div>
+            <div class="col-md-2">
+        <?php include_once 'html_comp/right_panel.php'; ?>
+            </div>
         </div>
     
         <script>
