@@ -160,7 +160,7 @@
               <a class="dropdown-collapse " href="#">
                 <i class="icon-cogs"></i>
                 <span>Asset Control</span>
-                <i class="glyphicon glyphicon-chevron-down pull-right"></i>
+                <i class="icon-angle-down angle-down"></i>
               </a>
               <ul class="nav nav-stacked">
                 <li class="">
@@ -224,7 +224,7 @@
       </nav>
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <table id="example" class="display" cellspacing="0" width="100%">
                     <thead>
                         <tr>
