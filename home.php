@@ -18,6 +18,7 @@
                             <th>Date of Creation</th>
                             <th>Description</th>
                             <th>Depreciation</th>
+                            <th>Edit/Delete</th>
                         </tr>
                     </thead>
 
@@ -27,49 +28,45 @@
                             <th>Date of Creation</th>
                             <th>Description</th>
                             <th>Depreciation</th>
+                            <th>Edit/Delete</th>
                         </tr>
                     </tfoot>
 
                     <tbody>
                         <tr>
-                            <td><a href="assets.php">Sakura Yamamoto</a></td>
+                            <td><a href="assets.php" style="color: blue;">Latur Fringe</a></td>
                             <td>2009/08/19</td>
-                            <td>desc1</td>
-                            <td>$75</td>
+                            <td>Asset Records</td>
+                            <td>WDV</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td><a href="assets.php">Sakura Yamamoto</a></td>
+                            <td><a href="assets.php" style="color: blue;">New Nagpur</a></td>
                             <td>2009/08/19</td>
-                            <td>
-                                desc1
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle pull-right" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-                                    <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Edit</a></li>
-                                    </ul>
-                                </div>
-                            </td>
-                            <td>$1395</td>
+                            <td>Insurance Details</td>
+                            <td>SLM</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td><a href="assets.php">Sakura Yamamoto</a></td>
+                            <td><a href="assets.php" style="color: blue;">Khopta</a></td>
                             <td>2009/08/19</td>
                             <td><a href="edit-account-book.php"> Add </a></td>
-                            <td>$19,575</td>
+                            <td>FGH</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td><a href="assets.php">Yamamoto Sakura</a></td>
+                            <td><a href="assets.php" style="color: blue;">New Nanded</a></td>
                             <td>2009/08/19</td>
-                            <td>desc1</td>
-                            <td>$9,575</td>
+                            <td>Renew Information</td>
+                            <td>RGK</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                         <tr>
-                            <td><a href="assets.php">Donna Snider</a></td>
+                            <td><a href="assets.php" style="color: blue;">New Nasik</a></td>
                             <td>2011/01/25</td>
-                            <td>desc1</td>
-                            <td>$112,000</td>
+                            <td>Maintenence</td>
+                            <td>NKL</td>
+                            <td><i class="icon-edit"></i></td>
                         </tr>
                     </tbody>
                 </table>
