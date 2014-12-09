@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link href="css/light-theme.css" rel="stylesheet">
         <link href="css/theme-colors.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
         
         <link href="css/demo.css" rel="stylesheet">
         <link href="css/jquery-dataTables.css" rel="stylesheet">

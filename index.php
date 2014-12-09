@@ -81,22 +81,22 @@
                         <h3 class="panel-title"><font size="5" >Login</font></h3>
                     </div>
                     <div class="panel-body">
-                       
-                <form action="" >
-                <div class="input-group">
-                    <span class="input-group-addon">Username</span>
-                    <input type="text" class="form-control" id="username" placeholder="Email or Username">
-                </div>
-                <br/>
-                <div class="input-group">
-                    <span class="input-group-addon">Password&nbsp;</span>
-                    <input type="password" class="form-control" id="passwordlogin" placeholder="Password">
-                </div>
-                <br/>
-                <button type="submit" class="btn btn-success" id="request" value='login' onclick="validateLoginFormOnSubmit()"><font size="3" >Log in</font></button>
-                </form>
+                        <form action="" >
+                        <div class="input-group">
+                            <span class="input-group-addon">Username</span>
+                            <input type="text" class="form-control" id="username" placeholder="Email or Username">
+                        </div>
+                        <br/>
+                        <div class="input-group">
+                            <span class="input-group-addon">Password&nbsp;</span>
+                            <input type="password" class="form-control" id="passwordlogin" placeholder="Password">
+                        </div>
+                        <br/>
+                        <a type="submit" href="home.php" class="btn btn-success" id="request" value='login' onclick="validateLoginFormOnSubmit()"><font size="3">
+                            Log in</font></a>
+                        </form>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <script type="text/javascript">
