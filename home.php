@@ -140,6 +140,7 @@
                 <a class="dropdown-collapse" href="#">
                     <i class="icon-star"></i>
                     <span>Depreciation </span>
+                    <i class="icon-angle-down angle-down"></i>
                 </a>
                 <ul class="nav nav-stacked">
                     <li class="">
