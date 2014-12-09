@@ -2,7 +2,7 @@
         <div class="navigation">
           <ul class="nav nav-stacked">
             <li class="active">
-              <a href="#">
+              <a href="home.php">
                 <i class="icon-dashboard"></i>
                 <span>Account Books</span>
               </a>
